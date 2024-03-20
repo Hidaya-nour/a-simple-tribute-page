@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 17px;
+    background: rgb(235, 232, 232);
+}
+h1,h2 ,p:not(.exclude){
+    text-align: center;
+}
+h1, h2{
+    margin: 30px;
+}
+p{
+    margin-bottom: 18px;
+}
+#img-div{
+    width: 95%;
+    margin: auto;
+    background: white;
+    padding: 1.5em 0.9em;
+}
+img{
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin:0 auto 20px auto;
+}
+#tribute-info{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+li{
+    padding: 10px;
+}
+#complement{
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+#link{
+    font-size: 22px;
+}
